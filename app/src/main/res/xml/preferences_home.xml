@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/item_preference"
+    android:title="title_activity_setting">
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="备份设置">
+
+        <CheckBoxPreference
+            android:layout="@layout/item_preference"
+            android:title="Test"
+            android:key="notify_priority"
+            android:summaryOn="On"
+            android:summaryOff="Off"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
